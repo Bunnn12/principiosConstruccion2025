@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="655.0" prefWidth="1036.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLPrincipalController">
+   <children>
+      <Label fx:id="lbNombre" alignment="CENTER" contentDisplay="CENTER" layoutX="264.0" layoutY="210.0" prefHeight="27.0" prefWidth="510.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="lbUsuario" alignment="CENTER" contentDisplay="CENTER" layoutX="267.0" layoutY="237.0" prefHeight="27.0" prefWidth="510.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="264.0" layoutY="158.0" text="BIENVENIDO(A) AL SISTEMA">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font></Label>
+      <Button layoutX="720.0" layoutY="46.0" mnemonicParsing="false" onAction="#btnCerrarSesion" prefHeight="35.0" prefWidth="262.0" style="-fx-background-color: #a5ddec;" text="CERRAR SESIÓN">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="174.0" fitWidth="206.0" layoutX="432.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recurso/logoJavaFxAppEscolar.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="381.0" layoutY="373.0" mnemonicParsing="false" onAction="#clickBtnAdminAlumno" prefHeight="85.0" prefWidth="276.0" style="-fx-background-color: #a5ddec;" text="ADMINISTRADOR DE ALUMNOS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
