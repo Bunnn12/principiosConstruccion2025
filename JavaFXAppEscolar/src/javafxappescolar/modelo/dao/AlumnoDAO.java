@@ -17,7 +17,7 @@ import javafxappescolar.modelo.dao.pojo.ResultadoOperacion;
 import javafxappescolar.utilidades.Utilidad;
 
 /**
- *
+ * Este es un mensaje de prueba para ver si funcionan los commit
  * @author reino
  */
 public class AlumnoDAO {
